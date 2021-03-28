@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from dappx import views# SET THE NAMESPACE!
+from loginpage import views # SET THE NAMESPACE!
 app_name = 'loginpage'
 # Be careful setting the name to just /login use userlogin instead!
 urlpatterns = [

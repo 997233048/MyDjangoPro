@@ -1,7 +1,7 @@
 
 
 from django.shortcuts import render
-from dappx.forms import UserForm,UserProfileInfoForm
+from loginpage.forms import UserForm,UserProfileInfoForm
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponseRedirect, HttpResponse
 from django.urls import reverse
